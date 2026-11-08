@@ -1,0 +1,19 @@
+.features li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.features li p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.features {
+  display: flex;
+  gap: 24px;
+}
+.ftr-items {
+  width: 264px;
+}
