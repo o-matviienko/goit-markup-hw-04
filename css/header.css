@@ -14,6 +14,7 @@
   color: #4d5ae5;
 }
 .nav-link {
+  position: relative;
   display: inline-block;
   padding: 24px 0;
   color: #2e2f42;
@@ -25,7 +26,8 @@
 .nav-link:hover,
 .contacts-link:hover,
 .nav-link:focus,
-.contacts-link:focus {
+.contacts-link:focus,
+.nav-link.current {
   color: #404bbf;
 }
 .contacts-link {
@@ -59,4 +61,15 @@
   display: flex;
   align-items: center;
   gap: 40px;
+}
+.nav-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  height: 4px;
+  background: #404bbf;
 }

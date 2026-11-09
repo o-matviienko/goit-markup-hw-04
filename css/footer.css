@@ -10,6 +10,7 @@
 }
 .accent-footer {
   color: #4d5ae5;
+  max-width: 264px;
 }
 .footer-text {
   font-family: "Roboto", sans-serif;
@@ -27,4 +28,35 @@
   margin-top: 16px;
   max-width: 264px;
   width: 100%;
+}
+.footer-social-icons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+}
+
+.footer-social-icons {
+  margin-top: 16px;
+
+  display: flex;
+  gap: 16px;
+}
+.footer-icons {
+  width: 24px;
+  height: 24px;
+}
+.footer-social-icons li:hover,
+.footer-social-icons li:focus {
+  background: #31d0aa;
+}
+.footer-top {
+  display: flex;
+  align-items: baseline;
+}
+.footer-wrapper {
+  margin-left: 120px;
 }
