@@ -1,4 +1,4 @@
-.team li h3 {
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -64,10 +64,6 @@
   color: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 50%;
-  box-shadow:
-    0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .list-social-icons .social-link:hover,
@@ -78,5 +74,16 @@
   display: block;
   width: 16px;
   height: 16px;
-  fill: #ffffff;
+  fill: #f4f4fd;
+}
+
+.team {
+  padding: 120px 0;
+}
+
+.list-item-team {
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
