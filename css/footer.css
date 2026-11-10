@@ -41,7 +41,7 @@
   padding: 0;
 }
 
-.social-link:hover,
+.social-link-footer:hover,
 .social-link:focus {
   background-color: #31d0aa;
 }
@@ -64,7 +64,7 @@
   color: #ffffff;
 }
 
-.social-link {
+.social-link-footer {
   display: flex;
   align-items: center;
   justify-content: center;
