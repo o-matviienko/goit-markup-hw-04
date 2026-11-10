@@ -60,11 +60,13 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  transition: transform 0.3s ease-in-out;
+  transition: transform 250ms ease-in-out;
   transition-property: transform;
+  transition: opacity 0.3s ease-in-out;
 }
 .portfolio-name:hover .overlay {
   transform: translateY(0);
+  opacity: 1;
 }
 .portfolio-name:hover {
   box-shadow:

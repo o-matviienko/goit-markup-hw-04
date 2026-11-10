@@ -7,6 +7,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -33,6 +36,7 @@
   background: #4d5ae5;
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms ease-in-out;
 }
 .hero-btn:hover,
 .hero-btn:focus {
